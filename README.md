@@ -3,3 +3,5 @@
     - colcon build
     - source install/setup.sh
     - ros2 run cv cv_node
+- 发布话题：/detection
+    - ros2 topic echo /detection
